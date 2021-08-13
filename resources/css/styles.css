@@ -220,6 +220,11 @@ nav li:nth-child(n+1) {
     object-fit: scale-down;
     margin: 0;
   }
+
+  nav li {
+    padding: 0;
+    border: 1px dotted red;
+  }
 }
 
   /* Upcoming Rides */
@@ -301,6 +306,11 @@ nav li:nth-child(n+1) {
   
   justify-content: center;
   flex-direction: column;
+ }
+
+ .map img {
+   width: 100%;
+   height: auto;
  }
 
  /* Gallery */
@@ -420,7 +430,6 @@ nav li:nth-child(n+1) {
    /* .community {
     display: none;
   } */
-}
 }
 
 .profile-card {
