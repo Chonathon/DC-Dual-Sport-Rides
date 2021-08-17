@@ -315,10 +315,13 @@ nav li:nth-child(n+1) {
   
   justify-content: center;
   flex-direction: column;
+
  }
 .embed-map {
   border-radius: 10px;
+
 }
+
  .map img {
    width: 100%;
    
