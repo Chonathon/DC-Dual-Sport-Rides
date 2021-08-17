@@ -136,7 +136,7 @@ nav {
   align-items: center;
   background-color: #433D3D;
   z-index: 999;
-  box-shadow: 0px 1px 1px black;
+  box-shadow: .5px 1px 1px black;
   position: fixed;
   right: 0;
   left: 0;
@@ -187,8 +187,7 @@ nav li:nth-child(n+1) {
   width: 38%;
   height: 5.5rem;
   background: #C4C4C4;
-  box-shadow: 0px 1px 1px black;
-  
+  box-shadow: .5px 1px 1px black;  
 }
 
 .banner h2 {
@@ -247,8 +246,7 @@ nav li:nth-child(n+1) {
   padding: 2rem 1.25rem;
   margin: 2.25rem;
   border-radius: 10px;
-  box-shadow: 0px 1px 1px black;
-}
+  box-shadow: .5px 1px 1px black;}
 
 .rides ul {
   list-style: none;
@@ -304,8 +302,7 @@ nav li:nth-child(n+1) {
   padding: 3rem 3rem 4rem 3rem;
   background-color: #555555;
   border-radius: 10px;
-  box-shadow: 0px 1px 1px black;
-
+  box-shadow: .5px 1px 1px black;
 }
 
 @media screen and (max-width: 960px) {
@@ -319,12 +316,15 @@ nav li:nth-child(n+1) {
   justify-content: center;
   flex-direction: column;
  }
-
+.embed-map {
+  border-radius: 10px;
+}
  .map img {
    width: 100%;
-   border-radius: 10px;
-   height: auto;
-   box-shadow: ;
+   
+   height: 100%;
+
+  /* box-shadow: .5px 1px 1px black; */
  }
 
  .map-caption {
